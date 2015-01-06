@@ -13,6 +13,6 @@ recipe 'vagrantbox_toolbox', 'VagrantBox Toolbox.'
 end
 
 
-%w{nodejs python}.each do |cb|
+%w{magic_shell nodejs python}.each do |cb|
   depends cb
 end
