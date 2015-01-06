@@ -19,5 +19,6 @@ Vagrant.configure("2") do |config|
   config.vm.provision :shell, :path => 'configure.sh'
   config.vm.provision :chef_solo do |chef|
     chef.json = chef_configuration
+    chef.data_bags_path = '../data_bags'
   end
 end
