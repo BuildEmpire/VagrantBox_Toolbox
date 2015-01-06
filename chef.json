@@ -1,0 +1,10 @@
+{
+  "run_list":[
+    "vagrantbox_toolbox"
+  ],
+  "vagrantbox_toolbox": {
+    "python": {
+      "pips": ["troveclient"]
+    }
+  }
+}

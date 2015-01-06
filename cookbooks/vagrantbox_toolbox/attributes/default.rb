@@ -1,0 +1,1 @@
+default['vagrantbox_toolbox']['python']['pips'] = []
