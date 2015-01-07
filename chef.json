@@ -1,19 +1,5 @@
 {
   "run_list":[
     "vagrantbox_toolbox"
-  ],
-  "vagrantbox_toolbox": {
-    "python": {
-      "pips": ["troveclient"]
-    },
-    "environment_variables": {
-      "OS_AUTH_URL": "https://lon.identity.api.rackspacecloud.com/v2.0/",
-      "OS_REGION_NAME": "LON",
-      "OS_USERNAME": "bob",
-      "OS_TENANT_ID": "bob",
-      "TROVE_SERVICE_TYPE": "rax:database",
-      "OS_PASSWORD": "bob",
-      "OS_PROJECT_ID": "bob"
-    }
-  }
+  ]
 }
